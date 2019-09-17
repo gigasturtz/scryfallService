@@ -1,0 +1,23 @@
+{
+  "name": "scryfallservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigasturtz/scryfallService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gigasturtz/scryfallService/issues"
+  },
+  "homepage": "https://github.com/gigasturtz/scryfallService#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
