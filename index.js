@@ -1,6 +1,7 @@
 const fetch = require('node-fetch')
 const fs = require('fs')
 
+
 async function getURIFromScryfall() {
     const cardUri = await fetch('https://api.scryfall.com/bulk-data').then(response => response.json()).then(data => data.data[0].permalink_uri)
     return cardUri
